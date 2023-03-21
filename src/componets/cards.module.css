@@ -1,0 +1,103 @@
+*{
+margin: 0;
+}
+
+main {
+    background: #EDEEF3;
+    min-height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 88px 10% 0 11%;
+   margin:0 auto;
+    
+    
+}
+.card {
+    border: 1px solid #DEE2E6;
+border-radius: 4px;
+width: 316px;
+height: 184px;
+background: #FFFFFF;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-right: 19px;
+margin-bottom: 22px;
+justify-content: space-evenly;
+}
+.emoji {
+    font-size: 48px;
+    line-height: 48px;
+}
+h3 {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 28px;
+
+text-decoration-line: underline;
+
+color: #000000;
+}
+p {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+
+color: #3F444A;
+}
+@media  (min-width: 1024px) and (max-width: 1280px) {
+    main {
+        padding: 88px 5% 0 5%;
+    }
+    .card {
+        width: 280px;
+    }
+    
+}
+@media  (min-width: 900.1px) and (max-width: 1023.9px) {
+    
+}
+@media  (min-width: 650px) and (max-width: 900px)   {
+   main {
+       padding: 88px 0 0 19px;
+   }
+   .card {
+    width: 292px;
+   }
+   p {
+    padding: 4px;
+   }
+}
+@media  (min-width: 420px) and (max-width: 600px)   {
+    main {
+        padding-top: 77px;
+    }
+    .card {
+    margin-right: 0;
+    min-width: 336px;
+    width: 80%;
+    max-width: 415px;
+   }
+   p {
+    font-size: 1rem;
+    padding: 5px;
+   }
+}
+@media   (max-width: 420px) {
+    main {
+        padding-top: 60px;
+    }
+   .card {
+    margin-right: 0;
+   }
+   p{
+    font-size: 1rem;
+    padding: 5px;
+   }
+}

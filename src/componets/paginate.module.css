@@ -1,0 +1,80 @@
+.btn_paginate  {
+    width: 61px;
+    height: 40px;   
+    background: #FFFFFF;
+    border: 1px solid #DEE2E6;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #055160;
+}
+.btn_last {
+    border-radius: 0px 4px 4px 0px;
+}
+.btn_first {
+    border-radius: 4px 0px 0px 4px;
+}
+.hover {  
+color: #ABB5BE;
+}
+
+.active {
+    background: #055160;
+    color: #FFFFFF;
+   
+}
+
+.btn_paginate:hover {
+    background: rgb(198, 198, 198, 0.5);
+    transition:  .3s;
+    
+}
+.paginate {
+    padding-bottom: 30px;
+   margin:0 auto;
+    border-top: 1px solid #CED4DA;
+    padding-top: 31px;
+   width:986px;
+}
+@media  (min-width: 1024px) and (max-width: 1280px) {
+ .paginate {
+    width: 922px;
+    margin: 0 auto;
+ }
+}
+@media  (min-width: 900.1px) and (max-width: 1023.9px) {
+    .paginate {
+        min-width: 715px;
+        width: 80%;
+        max-width: 808px;
+    }
+}
+@media  (min-width: 600.1px) and (max-width: 900px)   {
+    .paginate {
+        max-width: 850px;
+        width: 80%;
+        min-width: 600px;
+    }
+}
+@media  (min-width: 420px) and (max-width: 600px)   {
+    .paginate {
+        width: 318px;
+    }
+    .btn_paginate {
+        width: 45px;
+    }
+}
+@media  (max-width: 420px) {
+    .btn_paginate  {
+        width: 42px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .paginate {
+        
+        margin:0 auto;
+        width: 296px;
+    }
+}
