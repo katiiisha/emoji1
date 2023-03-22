@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/emoji1/static/css/main.3dfd2717.css",
+    "main.js": "/emoji1/static/js/main.45d30365.js",
+    "index.html": "/emoji1/index.html",
+    "main.3dfd2717.css.map": "/emoji1/static/css/main.3dfd2717.css.map",
+    "main.45d30365.js.map": "/emoji1/static/js/main.45d30365.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3dfd2717.css",
+    "static/js/main.45d30365.js"
+  ]
+}
